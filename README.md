@@ -7,7 +7,7 @@ A private, single-user web app (installable as a PWA) that plans a week of meals
 ```bash
 npm install
 cp .env.example .env.local   # optional; everything has a default
-npm run dev                  # http://localhost:3210 (port 3210 so it never clashes with apps on 3000)
+npm run dev                  # http://localhost:3010 (port 3010 so it never clashes with apps on 3000)
 ```
 
 On first visit you create a passcode (8+ characters), then onboarding asks about you and your targets. You can start with a clearly labelled demonstration week or start empty.
